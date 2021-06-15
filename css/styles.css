@@ -40,6 +40,7 @@ body {
   color: var(--secondary-text-color);
   font-style: 500;
   font-size: 14px;
+  font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -72,6 +73,7 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 .features-text {
   color: var(--primary-text-color);
