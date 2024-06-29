@@ -1,5 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: #434455;
+  background: #ffffff;
 }
 
 h2 {
@@ -46,12 +48,17 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.header-logo-accent {
   color: #2e2f42;
 }
 
-.logo-accent {
-  color: #4d5ae5;
+.footer-logo-accent {
+  color: #f4f4fd;
 }
+
 /* ---------- HEADER----------  */
 .header {
 }
@@ -114,7 +121,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); */
   background: #4d5ae5;
 }
 /* ----------   ----------  */
