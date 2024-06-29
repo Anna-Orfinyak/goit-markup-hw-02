@@ -9,7 +9,6 @@ h2 {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  /* text-align: center; */
   color: #2e2f42;
   text-transform: capitalize;
 }
@@ -49,7 +48,7 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-align: center;
+  /* text-align: center; */
   color: #4d5ae5;
 }
 
@@ -79,13 +78,15 @@ button {
   color: #2e2f42;
 }
 
-.header-menu-link:hover {
+.header-menu-link:hover,
+.header-menu-link:focus,
+.header-menu-link:active {
   color: #404bbf;
 }
 
-.header-menu-link:active {
+/* .header-menu-link:active {
 color: #404bbf;
-}
+} */
 .header-address {
 }
 
@@ -116,7 +117,7 @@ color: #404bbf;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  /* text-align: center; */
+  text-align: center;
   color: #fff;
 }
 
@@ -132,8 +133,7 @@ color: #404bbf;
 
 .order-btn:hover,
 .order-btn:focus {
-  background-color 
-background: #404bbf;;
+  background: #404bbf;
 }
 /* ----------   ----------  */
 
@@ -153,13 +153,18 @@ background: #404bbf;;
 
 /* ---------- TEAM----------  */
 .team {
-  background: #ffffff;
+  background: #f4f4fd;
+}
+
+.team-title {
+  text-align: center;
 }
 
 .team-list {
 }
 
 .team-item {
+  background: #ffffff;
 }
 
 .team-image {
@@ -170,6 +175,11 @@ background: #404bbf;;
 .portfolio {
   background: #ffffff;
 }
+
+.portfolio-title {
+  text-align: center;
+}
+
 .portfolio-list {
 }
 
