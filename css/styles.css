@@ -46,9 +46,10 @@ button {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.17;
+  line-height: 1.07;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-align: center;
   color: #4d5ae5;
 }
 
@@ -125,6 +126,12 @@ button {
   /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); */
   background: #4d5ae5;
 }
+
+.order-btn:hover,
+.order-btn:focus {
+  background-color 
+background: #404bbf;;
+}
 /* ----------   ----------  */
 
 /* ---------- FEATURES----------  */
@@ -143,7 +150,7 @@ button {
 
 /* ---------- TEAM----------  */
 .team {
-  background: #f4f4fd;
+  background: #ffffff;
 }
 
 .team-list {
